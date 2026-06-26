@@ -41,5 +41,23 @@ This repository contains the implementation code for the paper:
 
 ## Quick Test
 
+To verify that your environment is correctly set up, run the test script:
+
 ```bash
-python tests/test_imports.py
+python test/test_imports.py
+```
+
+This script checks that all required packages are properly installed and displays their versions.
+
+Expected output:
+
+```plain
+All required packages imported successfully!
+ALL DEPENDENCY TESTS PASSED - Environment ready for PM2.5 prediction!
+```
+
+If any package fails, install dependencies with:
+
+```bash
+pip install -r requirements.txt
+```
