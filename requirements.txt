@@ -1,0 +1,22 @@
+# 数据处理
+numpy
+pandas
+
+# 机器学习
+scikit-learn
+xgboost
+catboost
+lightgbm
+
+# 深度学习
+tensorflow
+
+# 可视化
+matplotlib
+seaborn
+
+# 可解释性
+shap
+
+# 科学计算
+scipy
